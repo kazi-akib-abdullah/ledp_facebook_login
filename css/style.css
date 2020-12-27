@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+
+}
+.body{
+    background-color: #F0F2F5;
+
+}
+.container{
+    width: 65%;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0px;
+
+
+}
+.container::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.description-area{
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+}
+.logo-area img{
+    border: 0;
+    width: 300px;
+    height: 106px;
+    margin-left: -30px;
+
+}
+.form-area{
+    width: 50%;
+    float: right;
+    margin-top: 60px;
+
+}
+.main-form{
+    background-color: white;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    /* padding: 20px 0 28px; */
+    width: 396px;
+}
+.main-form .login input[type = "submit"]{
+    background-color: #1877f2;
+    border: none;
+    color: white;    
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.main-form .login{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    /* padding: 0 16px; */
+    width: 332px;
+    display: inline-block;
+    
+}
+.main-form input{
+    width: 100%;
+    line-height: 30px;
+    width: 332px;
+    padding-left: 5px;
+
+
+}
+.main-form .new-account input[type = "button"]{
+    background-color: #36A420;
+    color: white;
+    /* display: inline-block; */
+}
+
+.email, .password, .login, .forget, .new-account{
+    margin-bottom: 12px;
+
+}
+.paragraph-form a, .main-form .forget{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: inherit;
+    
+}
+.main-form .forget a{
+    display: inline-block;
+    text-decoration: none;
+    
+
+    
+}
+.paragraph-form a:hover, .main-form .forget a:hover{
+    text-decoration: underline;
+}
+.footer{
+    width: 65%;
+    margin: auto;
+}
